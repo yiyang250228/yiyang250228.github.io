@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Measuring Quality of Grammars for Procedural Level Generation | Yi Yang</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Measuring Quality of Grammars for Procedural Level Generation" />
+<meta name="author" content="Riemer van Rozen" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Updated Wednesday February 7th 2019" />
+<meta property="og:description" content="Updated Wednesday February 7th 2019" />
+<link rel="canonical" href="http://localhost:4000/project/update/2019/02/01/Measuring-Quality-of-Grammars.html" />
+<meta property="og:url" content="http://localhost:4000/project/update/2019/02/01/Measuring-Quality-of-Grammars.html" />
+<meta property="og:site_name" content="Yi Yang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-01T22:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Measuring Quality of Grammars for Procedural Level Generation" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Riemer van Rozen"},"dateModified":"2019-02-01T22:00:00+08:00","datePublished":"2019-02-01T22:00:00+08:00","description":"Updated Wednesday February 7th 2019","headline":"Measuring Quality of Grammars for Procedural Level Generation","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/update/2019/02/01/Measuring-Quality-of-Grammars.html"},"url":"http://localhost:4000/project/update/2019/02/01/Measuring-Quality-of-Grammars.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yi Yang" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Yi Yang</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+
+        <div class="trigger">         
+              <a class="page-link" href="/Publications/">Publications</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Measuring Quality of Grammars for Procedural Level Generation</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-01T22:00:00+08:00" itemprop="datePublished">Feb 1, 2019
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Riemer van Rozen</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amsterdam University of Applied Sciences</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amsterdam</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">The Netherlands</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>Updated Wednesday February 7th 2019</em></p>
+
+<h2 id="improving-debuggers-for-procedural-game-levels">Improving Debuggers for Procedural Game Levels</h2>
+<p>Quinten Heijn and Riemer van Rozen participated in the International Conference on the Foundations of Digital Games (FDG), in Malmö, Sweden in August 2018.</p>
+
+<p>Their talk at the Procedural Content Generation in Games (PCG) workshop, a part of FDG, was for a paper on Measuring Quality of Grammars for Procedural Level Generation [1].
+It was written in the context of Quinten’s MSc project, which was in collaboration with Joris Dormans of Ludomotion.
+This work addresses the challenge of improving the quality of procedural level generation.
+Unlike other works that focus on the output of content generators, this work analyzes root-causes of quality issues in the source code (grammar rules) of the generators.</p>
+
+<p>Following a very interesting related topic presented by Thomas Smith on generating graphs for Zelda-style levels via Answer-Set Programming,
+Riemer gave an introduction into Software Evolution that framed the talk.
+According to Antonios Liapis, Joris was virtually present too.</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Feels like Joris &amp; <a href="https://twitter.com/PlayUnexplored?ref_src=twsrc%5Etfw">@PlayUnexplored</a> have a special virtual seat in this session. 2nd talk is on judging code quality of grammar-based dungeon generation. It&#39;s a Software Evolution approach for root-cause analysis in PCG, cool for explainable AI for white-box PCG? Shoutout <a href="https://twitter.com/jichenz?ref_src=twsrc%5Etfw">@jichenz</a> <a href="https://t.co/udCCbDA9aL">pic.twitter.com/udCCbDA9aL</a></p>&mdash; Antonios Liapis (@SentientDesigns) <a href="https://twitter.com/SentientDesigns/status/1026763935079251970?ref_src=twsrc%5Etfw">August 7, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Quinten presented the main contributions of the paper, showing movies of LudoScope Lite (LL). LL is a prototype level generator and analyzer (currently limited to tile maps) built by Quinten using <a href="https://www.rascal-mpl.org">Rascal</a>, a meta-programming language and a language work bench.
+The prototype is available on <a href="https://github.com/visknut/LudoscopeLite">Github</a>.</p>
+
+<p>In good company, we see Rafaël Bidarra on the left and Julian Togelius on the right.</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/VisKnut?ref_src=twsrc%5Etfw">@VisKnut</a> explaining declarative game level properties for measuring the quality of grammars for procedural level generation <a href="https://twitter.com/PcgWorkshop?ref_src=twsrc%5Etfw">@PcgWorkshop</a> <a href="https://twitter.com/hashtag/FDG18?src=hash&amp;ref_src=twsrc%5Etfw">#FDG18</a> <a href="https://t.co/JVxAVyMSRO">pic.twitter.com/JVxAVyMSRO</a></p>&mdash; Riemer van Rozen (@rvrozen) <a href="https://twitter.com/rvrozen/status/1026770246655504384?ref_src=twsrc%5Etfw">August 7, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>We explain LL using a simple example: a game level of a dungeon room.
+Below, we see a tile map on the left and its running game instance on the right.
+Players have to traverse the room without being burnt by fire pillars. They can use water from a pond to extinguish the flames.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">tile map</th>
+      <th style="text-align: left">game</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><img src="/assets/PCG2018_tile_map.png" width="75%" /></td>
+      <td style="text-align: left"><figure class="video_container"><video controls="true" allowfullscreen="true" width="75%"><source src="/assets/PCG2018_demo_level.mp4" /></video></figure></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>LL demonstrates two techniques that developers can use to analyse the root causes of quality issues in generated levels.
+First, the Metric of Added Detail (MAD) raises flags for grammar rules that remove detail with respect to their position in the transformation pipeline.
+Second, Specification Analysis Reporting (SAnR), analyzes level generation histories against level properties and reports problematic grammar rules.</p>
+
+<p>The movie below demonstrates how a pipeline of three stages (consisting of modules m1..m3 that each contain grammar rules) generates a level conforming to each of its level properties.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/PCG2018_generate_level.mp4" />
+  </video>
+</figure>
+
+<p>The movie below demonstrates how SAnR helps find broken levels, which facilitates debugging and can be used to prevent bad levels from being generated.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/PCG2018_inspect_level.mp4" />
+  </video>
+</figure>
+
+<h3 id="conclusions">Conclusions</h3>
+<p>Specification Analysis Reporting (SAnR) in particular may prove very useful, since debugging grammar rules in level generation histories is an important requirement for improving the quality of grammar-based content generators.</p>
+
+<p>Are MAD and SAnR odd names? Well, yes, but simultaneously debugging grammar rules and potentially countless levels feels mad, and therefore becoming saner must be urgent.
+In that light, the results game developers achieve using generative grammars are not just good, but astonishing.
+This cutting-edge technology explores the limits of procedural content generation, and it deserves the attention of researchers who can help developers push those limits forward.</p>
+
+<ul>
+  <li><strong>Symposium.</strong> In case you wish to learn more, Quinten will give a talk at the <a href="/project/update/2019/02/01/Live-Game-Design-Symposium.html">Symposium on Live Game Design</a> in Amsterdam on February 27th.</li>
+</ul>
+
+<h3 id="bibliography">Bibliography</h3>
+<ol>
+  <li>R. van Rozen and Q. Heijn. Measuring Quality of Grammars for Procedural Level Generation. Chapter revision. In Proceedings of the 13th International Conference on Foundations of Digital Games, FDG, as part of the 9th Workshop on Procedural Content Generation, PCG, Malmö, Sweden, August 7–10, 2018. <a href="http://localhost:4000/assets/vRozenHeijn2018.pdf">[pdf]</a></li>
+  <li>Q. Heijn. Improving the Quality of Grammars for Procedural Level
+Generation: A Software Evolution Perspective. MSc Thesis. University of Amsterdam, Master of Software Engineering, August 30, 2018. <a href="http://www.scriptiesonline.uba.uva.nl/document/661986">[pdf]</a></li>
+  <li>R van Rozen and Q. Heijn. Measuring Quality of Grammars for Procedural Level Generation. Presentation slide deck. In Proceedings of the 13th International Conference on Foundations of Digital Games, FDG, as part of the 9th Workshop on Procedural Content Generation, PCG, Malmö, Sweden, August 7–10, 2018. <a href="http://localhost:4000/assets/PCG2018_slides_vRozenHeijn.pdf">[pdf]</a></li>
+</ol>
+
+<p><strong>Proceedings.</strong>
+The full proceedings (the collection of papers) of FDG 2018 can be found here at dblp <a href="https://dblp.uni-trier.de/db/conf/fdg/fdg2018.html">[url]</a>.
+The papers are available on the ACM digital library <a href="https://dl.acm.org/citation.cfm?id=3235765">[url]</a>.
+In case you don’t have access, most authors share a pre-print you might find via Google Scholar.</p>
+
+<p><strong>Thanks.</strong>
+The city council of Malmö warmly welcomed the  conference participants to a reception and a dinner at the historical city hall, as recorded by the conference chair Jose Font.
+We thank the organizers for a great conference!</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/fdg18?src=hash&amp;ref_src=twsrc%5Etfw">#fdg18</a> gala dinner at the Town Hall thanks to <a href="https://twitter.com/malmostad?ref_src=twsrc%5Etfw">@malmostad</a> &#39;s support. <a href="https://t.co/hSTAD7IKZx">pic.twitter.com/hSTAD7IKZx</a></p>&mdash; Jose Maria Font (@erfont) <a href="https://twitter.com/erfont/status/1027642451329200129?ref_src=twsrc%5Etfw">August 9, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Finally, we thank Joris Dormans for his continued collaboration with us in applied research on PCG and Automated Game Design.</p>
+
+  </div><a class="u-url" href="/project/update/2019/02/01/Measuring-Quality-of-Grammars.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Yi Yang</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>2024</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Personal home page and blog.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

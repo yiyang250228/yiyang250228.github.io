@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Exploring the Design Space with Live Modeling | Yi Yang</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Exploring the Design Space with Live Modeling" />
+<meta name="author" content="Riemer van Rozen" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Draft – February 5th 2019" />
+<meta property="og:description" content="Draft – February 5th 2019" />
+<link rel="canonical" href="http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html" />
+<meta property="og:url" content="http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html" />
+<meta property="og:site_name" content="Yi Yang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-05T21:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Exploring the Design Space with Live Modeling" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Riemer van Rozen"},"dateModified":"2019-02-05T21:00:00+08:00","datePublished":"2019-02-05T21:00:00+08:00","description":"Draft – February 5th 2019","headline":"Exploring the Design Space with Live Modeling","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html"},"url":"http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yi Yang" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Yi Yang</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+
+        <div class="trigger">         
+              <a class="page-link" href="/Publications/">Publications</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Exploring the Design Space with Live Modeling</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-02-05T21:00:00+08:00" itemprop="datePublished">Feb 5, 2019
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Riemer van Rozen</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amsterdam University of Applied Sciences</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amsterdam</span></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">The Netherlands</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>Draft – February 5th 2019</em></p>
+
+<p><strong>Abstract.</strong>
+Live Modeling is a research area in Model-Driven Engineering that studies how to improve the affordances of languages, tools and techniques by providing immediate and continuous feedback about how visual changes to the source code (or model) affect running programs.
+Instead of long edit-compile-run cycles, every update to the model is immediately visible in the running application and its programming environment.
+Here we share our perspective on how these tools support interactive design space exploration.
+We motivate our research and clarify our position by giving an account of our progress on enabling technology constructed in the context of an applied project called Live Game Design.
+We demonstrate two live programming environments we created for 1) a simple State Machine Language; and 2) Micro-Machinations, a Domain-Specific Language for game economies.</p>
+
+<h3 id="introduction">Introduction</h3>
+<p>Imagination is at the root of every improvement. We see how something is lacking, we imagine an improvement, set out to achieve a new goal and find new solutions with varying degrees of success. Making improvements often goes wrong because our imagination did not accurately predict the outcomes of our actions.</p>
+
+<p>Practitioners and researchers have invented <em>iterative design processes</em> to gather early feedback on the qualities of our work and improve solutions step by step, gradually improving our insight, constantly checking if we are still on track with respect to changing goals. On the one hand we rely on our imagination to take the right course of action, and on the other hand we do not know yet what that should be because we still have to learn what the solution can become.</p>
+
+<p>Experienced software engineers construct <em>mental models</em> of the systems they build. They can predict with uncanny accuracy how a program works, how it is failing and how it can be improved. Programming is mostly done by imagining improvements and then implementing them, finding out how you were wrong during a lengthy debugging sessions and fixing bugs, repairing mistakes, and of course improving your predictions in the mean time.</p>
+
+<p>To achieve the highest possible quality, <em>understanding</em> how programming changes affect systems under development with respect to a goal is paramount. However, the changes themselves are not often explicitly represented. Instead, engineers create a new version of the source code of a program by making changes here and there, but commonly only see the effects when they recompile or reinterpret and run that code again. This is especially complicated for novice programmers who lack the mental model needed to make correct and meaningful changes to the source code. Instead, novices are left to guess and are forced to take a stab in the dark. This makes learning how to program a frustrating and difficult thing to do. How can you build your mental model if everything you try blows up in your face?</p>
+
+<p>Imagine that we do explicitly represent change, that all changes we make to program models have meaning, and that we can study the effect of changes immediately and continuously. This enables checking with every little change if it had the effect what we imagined or learning how it did not, and combining lots of little changes for steering towards improvements of complete systems. This style of incremental updates with immediate feedback is called <em>live programming</em>.</p>
+
+<p>In live programming we do not assume that you already know what you are doing. 
+Program, go forward, discover your imagination was wrong, learn and reimagine. Go back and try again, observe an improvement, enjoy the endorfines rushing through your brain and continue. Fail, that is ok, it’s never a straight line to a goal, just keep modeling, you will get there in the end.
+We believe that <em>‘exploring the failure space’</em> should not be tedious or repetitive, but instead quickly help identify dead ends and gradually find new exciting design alternatives.</p>
+
+<p>Our research focusses on explicitly representing changes of program models that help programmers in general and game designers in particular understand what their changes mean, enabling them to gradually improve both their insight and their programs [1].</p>
+
+<h3 id="live-programming-of-state-machines">Live Programming of State Machines</h3>
+<p>A key research challenge in live modeling is to determine how to migrate the application’s run-time state with the changes to its source code.
+In van Rozen and van der Storm [1], we describe first steps towards general, reusable and maintainable solutions, which entails <em>differencing</em> models and <em>patching</em> the run-time state to reflect the changes. 
+The following movie demonstrates how this works for a simple State Machine Language.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/sml-live.mp4" />
+  </video>
+</figure>
+
+<h3 id="live-game-design-with-machinations">Live Game Design with Machinations</h3>
+<p>The project Live Intelligent Visual Environments for Game Design, or LIVE Game Design for short, envisions <em>live game design tools</em> that have the following qualities:</p>
+
+<ul>
+  <li>
+    <p><strong>Visual.</strong> includes visual programming languages especially attuned to the expertise of game designers</p>
+  </li>
+  <li>
+    <p><strong>Live.</strong> provides immediate and continuous (live) results that are understandable and help gain insight</p>
+  </li>
+  <li>
+    <p><strong>Feedback.</strong> shows precise and intelligent feedback on mechanics, related dynamics (interaction and run-time), resulting aesthetics (gameplay), in order to make informed decisions.</p>
+  </li>
+  <li>
+    <p><strong>Feed-forward</strong> offers alternatives that can be inspected, picked and applied to focus the creative design process</p>
+  </li>
+  <li>
+    <p><strong>Applicable.</strong> examples and material to learn how to apply the tools</p>
+  </li>
+</ul>
+
+<p>Here we demonstrate a new live programming environment for Micro-Machinations [2,3,4], a Domain-Specific Language for game economies that adds the programming language dimension to the design notation of Machinations [5].
+The tool supports simultaneously editing and running models, which enables immediate prototyping and continuous play testing.
+Ferdy van den Hoed (a bachelor student at the AUAS) built the front-end in Unity in the context of an internship at Firebrush Studios, with Paul Brinkkemper.
+Riemer van Rozen built the back-end, a new C#-based library which is also embeddable in games that is based on prior research [1].
+As a result, games developed in Unity might profit from a built-in editor, though the final goal is platform independent remote manipulation.</p>
+
+<p><strong>Simple Model.</strong>
+We show a simple diagram that uses only global variables, like the Machinations tool by Joris Dormans.
+On the left we see the <em>edit view</em> and on the left the <em>run-time view</em>. As soon as an interactive node is added, it can be activated to see how the resources flow.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/mm_simple.mp4" />
+  </video>
+</figure>
+
+<p><strong>Object Oriented Model.</strong>
+More complex models consist of more than just global variables. Instead, the name space consists of objects, which are instances of definitions.
+A first attempt at modeling a diagram inspired by a Farmville also works surprisingly well.
+The idea unfolds as follows: players have a farm, a farm has plots, plots have plants, and so on.
+We now see the definitions in the <em>edit view</em> on the left and run-time instances on the right, which are updated every time we edit.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/mm_objects.mp4" />
+  </video>
+</figure>
+
+<p>Note the similarity with Object Oriented Programming where classes have zero or more instances.
+The essential difference however is that in live modeling the program always runs. 
+Instead of something to be imagined, the run-time model on the right is a fact and a consequence that can be observed and inspected.</p>
+
+<p>As far as we know our live game design tool is the first of its kind.
+Of course, this is merely a proof of concept, and it needs additional development before industry can adopt it.
+The business initiative <a href="https://machinations.io">machinations.io</a> is an industrial strength design tool (but not a programming language) with the same notation.</p>
+
+<h3 id="conclusions-and-future-work">Conclusions and Future Work</h3>
+<p>We described progress on enabling technology for languages and tools for live programming and game design, and shared our perspective on how they support an interactive exploration of the design space.
+We motivated our research and gave and account on our progress by demonstrating live programming environments for State Machines and Micro-Machinations.</p>
+
+<p><strong>Future Work.</strong>
+The model transformation and state migration engine that drives these tools is not yet published. 
+This engine deals with events in a novel manner and requires a new way of thinking about how to build languages for live modeling.
+This will be a subject of a future research paper.</p>
+
+<p><strong>Thanks.</strong> We thank Paul Brinkkemper for his continued collaboration with us in applied research on Automated Game Design.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ol>
+  <li>
+    <p>R. van Rozen and T. van der Storm. Toward Live Domain-Specific Languages: From Text Differencing to Adapting Models at Run Time. Pre-print of an article that appeared in Software &amp; Systems Modeling, Springer, August 2017. <a href="https://homepages.cwi.nl/~storm/publications/vRozenvdStorm2017_sosym_v3.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>P. Klint and R. van Rozen. Micro-Machinations: A DSL for Game Economies. In M. Erwig, R. Paige, and E. Van Wyk, editors, Software Language Engineering, volume 8225 of Lecture Notes in Computer Science, pages 36–55. Springer International Publishing, 2013. <a href="http://oai.cwi.nl/oai/asset/21923/21923B.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>R. van Rozen and J. Dormans. Adapting Game Mechanics With Micro-Machinations. In Proceedings of the 9th International Conference on the Foundations of Digital Games (FDG). Society for the Advancement of the Science of Digital Games, April 2014. <a href="http://oai.cwi.nl/oai/asset/23138/23138A.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>R. van Rozen. A Pattern-Based Game Mechanics Design Assistant. In Proceedings of the 10th International Conference on the Proceedings of Foundations of Digital Games (FDG). Society for the Advancement of the Science of Digital Games, June 2015. <a href="http://oai.cwi.nl/oai/asset/23769/23769A.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>J. Dormans. Engineering Emergence - Applied Theory for Game Design, PhD Dissertation, 2012. <a href="http://www.jorisdormans.nl/pdf/dormans_engineering_emergence.pdf">[pdf]</a></p>
+  </li>
+</ol>
+
+
+  </div><a class="u-url" href="/blog/post/2019/02/05/Live-Modeling.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Yi Yang</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>2024</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Personal home page and blog.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

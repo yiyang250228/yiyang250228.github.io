@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-28T14:21:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yi Yang</title><subtitle>Personal home page and blog.</subtitle><entry><title type="html">Ontdek Live Game Design tijdens het Weekend van de Wetenschap</title><link href="http://localhost:4000/blog/post/2024/10/04/Weekend_van_de_Wetenschap.html" rel="alternate" type="text/html" title="Ontdek Live Game Design tijdens het Weekend van de Wetenschap" /><published>2024-10-04T23:30:00+08:00</published><updated>2024-10-04T23:30:00+08:00</updated><id>http://localhost:4000/blog/post/2024/10/04/Weekend_van_de_Wetenschap</id><content type="html" xml:base="http://localhost:4000/blog/post/2024/10/04/Weekend_van_de_Wetenschap.html"><![CDATA[<div style="padding-left: 20px; padding-bottom: 10px; padding-top: 10px; float: right; width: 50%; text-align: center; font-weight: bold;">
+<img src="/assets/Vie_banner.jpg" style="width: 80%; border: 1px solid black;" />
+<div style="padding-top: 10px">
+Vie Banner
+</div>
+</div>
+<p><strong>Weekend van de Wetenschap</strong>: Van 4 t/m 6 oktober openen onderzoeksinstellingen hun deuren voor een grote collectieve open dag. Bij Centrum Wiskunde &amp; Informatica organiseren we op zaterdag 5 oktober van 12:00 tot 17:00 een activiteit rond Live Game Design. Kinderen van 8 tot 14 kunnen zelf spelletjes ontwerpen en leren programmeren met de Vie-app. Ze kiezen uit twee thema’s: a) Help een verloren konijn terug te vinden, of b) Red de wereld van klimaatverandering. [lees meer]</p>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Vie Banner Weekend van de Wetenschap: Van 4 t/m 6 oktober openen onderzoeksinstellingen hun deuren voor een grote collectieve open dag. Bij Centrum Wiskunde &amp; Informatica organiseren we op zaterdag 5 oktober van 12:00 tot 17:00 een activiteit rond Live Game Design. Kinderen van 8 tot 14 kunnen zelf spelletjes ontwerpen en leren programmeren met de Vie-app. Ze kiezen uit twee thema’s: a) Help een verloren konijn terug te vinden, of b) Red de wereld van klimaatverandering. [lees meer]]]></summary></entry><entry><title type="html">SEN Symposium</title><link href="http://localhost:4000/blog/post/2024/06/07/VERSEN.html" rel="alternate" type="text/html" title="SEN Symposium" /><published>2024-06-07T03:00:00+08:00</published><updated>2024-06-07T03:00:00+08:00</updated><id>http://localhost:4000/blog/post/2024/06/07/VERSEN</id><content type="html" xml:base="http://localhost:4000/blog/post/2024/06/07/VERSEN.html"><![CDATA[<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 10px; float: right; width: 120px;">
+<img src="/assets/Vie.jpg" style="width: 120px; border: 1px solid black;" />
+</div>
+<p>The <a href="https://www.sen-symposium.nl">SEN Symposum</a> is the
+National Symposium on Software Engineering in The Netherlands.
+At the symposium on June 7th 2024, I will give a short talk entitled ``Vie is A Game Changer’’.
+Here, I share a demo of a tutorial (<a href="/assets/CWI_Open_Dag_2023_Opdrachten.pdf">PDF</a> in Dutch) showing the Lost Bunny example [1].
+The video illustrates how novices can easily create a simple 2D game that is immediately playable.
+Below, I also share an English version of the demo. 
+Please note, at this moment neither video includes audio. 
+Read more about Vie <a href="/Vie/">here</a>.</p>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Riemer van Rozen. 2023. Zelf Leuke Spelregels Ontwerpen. In CWI Open Dag,
+Weekend van de Wetenschap, 7 Oktober 2023.</li>
+</ol>
+
+<h3 id="demo-videos">Demo Videos</h3>
+<div style="padding-left: 10px; padding-bottom: 10px; padding-top: 10px; float: right; width: 100%; text-align: center; font-weight: bold;">
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/Vie_demo_NL_subtitles.mp4" />
+  </video>
+</figure>
+</div>
+
+<div style="padding-left: 10px; padding-bottom: 10px; padding-top: 10px; float: right; width: 100%; text-align: center; font-weight: bold;">
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/Vie_demo_EN_subtitles.mp4" />
+  </video>
+</figure>
+</div>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[The SEN Symposum is the National Symposium on Software Engineering in The Netherlands. At the symposium on June 7th 2024, I will give a short talk entitled ``Vie is A Game Changer’’. Here, I share a demo of a tutorial (PDF in Dutch) showing the Lost Bunny example [1]. The video illustrates how novices can easily create a simple 2D game that is immediately playable. Below, I also share an English version of the demo. Please note, at this moment neither video includes audio. Read more about Vie here.]]></summary></entry><entry><title type="html">Workshop on Game Design for Education</title><link href="http://localhost:4000/blog/post/2024/03/18/Workshop-at-Actieffabriek.html" rel="alternate" type="text/html" title="Workshop on Game Design for Education" /><published>2024-03-18T19:40:00+08:00</published><updated>2024-03-18T19:40:00+08:00</updated><id>http://localhost:4000/blog/post/2024/03/18/Workshop-at-Actieffabriek</id><content type="html" xml:base="http://localhost:4000/blog/post/2024/03/18/Workshop-at-Actieffabriek.html"><![CDATA[<div style="padding-left: 20px; padding-bottom: 10px; padding-top: 10px; float: right; width: 50%; text-align: center; font-weight: bold;">
+<img src="/assets/Vie_banner.jpg" style="width: 80%; border: 1px solid black;" />
+<div style="padding-top: 10px">
+Vie Banner
+</div>
+</div>
+
+<p><a href="https://actieffabriek.event-hva.nl/">Actieffabriek</a> is a 
+symposium on <em>Education that Activates Students to Learn</em>.
+This event, organized for teachers, education developers and educational experts,
+will be held on Thursday March 21st 2024 at the Amsterdam Univesity of Applied Sciences.
+The program consists of keynotes and workshops.
+Anders Bouwer, Daan van Smaalen and myself will host a workshop on
+<em>Game Design for Education</em>.</p>
+
+<p>Together with particiants, we will explore
+how to support <em>learning by making games</em>.
+My contribution will be that we explore how we can use Vie [1,2,3],
+a visual programming environment for game design,
+for this purpose.
+Please find the Dutch title and abstract below.</p>
+
+<p>Thanks to Anders and Daan for inviting me as a last-minute addition to the program!</p>
+
+<h3 id="games-ontwerpen-voor-je-onderwijs">Games ontwerpen voor je onderwijs</h3>
+<p>Ben je geïnteresseerd in game-based learning en wil je weten hoe je spellen kunt ontwerpen voor je onderwijs? In deze workshop ga je - aan de hand van enkele raamwerken uit de game design wereld - (educatieve) spellen analyseren en (her)ontwerpen. <a href="https://actieffabriek.event-hva.nl/page/1470696/1484619">lees meer</a>.</p>
+
+<h3 id="workshopgevers">Workshopgevers</h3>
+<ul>
+  <li>Anders Bouwer is kwartiermaker Smart Education bij FOO en docentonderzoeker bij FDMCI. Hij werkt aan diverse projecten rond educatieve games, tools voor game design, en AI in het onderwijs.</li>
+  <li>Daan van Smaalen werkt als lerarenopleider bij FOO. Hij is betrokken bij verschillende projecten rondom game-based learning.</li>
+  <li>Riemer van Rozen is een wetenschapper bij Centrum Wiskunde &amp; Informatica. Hij verricht toegepast onderzoek naar visuele programmeertalen die het programmeren makkelijker en leuker maken.</li>
+</ul>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Riemer van Rozen. “Cascade: A Meta-Language for Change, Cause and Effect”. In: <em>Proceedings of the International Conference on Software Language Engineering.</em> ACM, 2023. DOI: <a href="https://doi.org/10.1145/3623476.3623515">10.1145/3623476.3623515</a></li>
+  <li>Riemer van Rozen. “Game Engine Wizardry for Programming Mischief”. In: <em>Proceedings of the Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments, PAINT.</em> ACM, 2023. DOI: <a href="https://doi.org/10.1145/3623504.3623570">10.1145/3623504.3623570</a></li>
+  <li>Riemer van Rozen. 2023. Zelf Leuke Spelregels Ontwerpen. In CWI Open Dag,
+Weekend van de Wetenschap, 7 Oktober 2023.</li>
+</ol>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Vie Banner]]></summary></entry><entry><title type="html">Vie Demo at ICT.Open 2024</title><link href="http://localhost:4000/blog/post/2024/03/04/Vie-at-ICT.Open.html" rel="alternate" type="text/html" title="Vie Demo at ICT.Open 2024" /><published>2024-03-04T17:29:00+08:00</published><updated>2024-03-04T17:29:00+08:00</updated><id>http://localhost:4000/blog/post/2024/03/04/Vie-at-ICT.Open</id><content type="html" xml:base="http://localhost:4000/blog/post/2024/03/04/Vie-at-ICT.Open.html"><![CDATA[<div style="padding-left: 20px; padding-bottom: 10px; padding-top: 10px; float: right; width: 50%; text-align: center; font-weight: bold;">
+<img src="/assets/Vie_banner.jpg" style="width: 80%; border: 1px solid black;" />
+<div style="padding-top: 10px">
+Vie Banner
+</div>
+</div>
+<p><a href="https://www.ictopen.nl">NWO ICT.Open</a> is the Dutch national conference on Information Technology.
+This year, the event takes place on April 10–11 at the Jaarbeurs in Utrecht.
+On Thursday April 11th, we will demonstrate <a href="/Vie">Vie</a>,
+a visual programming evironment for creating simple 2D game protoypes.
+Please find the title and abstract below. Come visit us at our stand.</p>
+
+<h3 id="a-live-programming-tutorial-that-uses-game-based-learning">A Live Programming Tutorial that uses Game-Based Learning</h3>
+<p>Educating novices in the art of programming is a key challenge in computer science education. To make the learning experience more engaging and fun, we propose a combination of live programming and game based learning. Specifically, we introduce visual feedback, with every minor code change, for exploring the immediate effects.</p>
+
+<p>We demonstrate Vie, a visual live programming environment for simultaneously prototyping and play testing a game’s mechanisms [1, 2]. Originally designed as a professional game design tool, we have now successfully applied Vie in a programming tutorial [3].</p>
+
+<p>At the CWI open day, kids aged 8 to 14 engaged in exploratory programming using two design themes: a) recovering a lost bunny (Fig. 1) and b) preventing climate change. In this live demo at ICT.Open, participants of ICT Open can also try this tutorial, and experience its main goals: <em>“programming is fun; can be visual too; and is for everyone”</em>.</p>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Riemer van Rozen. “Cascade: A Meta-Language for Change, Cause and Effect”. In: <em>Proceedings of the International Conference on Software Language Engineering.</em> ACM, 2023. DOI: <a href="https://doi.org/10.1145/3623476.3623515">10.1145/3623476.3623515</a></li>
+  <li>Riemer van Rozen. “Game Engine Wizardry for Programming Mischief”. In: <em>Proceedings of the Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments, PAINT.</em> ACM, 2023. DOI: <a href="https://doi.org/10.1145/3623504.3623570">10.1145/3623504.3623570</a></li>
+  <li>Riemer van Rozen. 2023. Zelf Leuke Spelregels Ontwerpen. In CWI Open Dag,
+Weekend van de Wetenschap, 7 Oktober 2023.</li>
+</ol>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Vie Banner NWO ICT.Open is the Dutch national conference on Information Technology. This year, the event takes place on April 10–11 at the Jaarbeurs in Utrecht. On Thursday April 11th, we will demonstrate Vie, a visual programming evironment for creating simple 2D game protoypes. Please find the title and abstract below. Come visit us at our stand.]]></summary></entry><entry><title type="html">Personal Website and Blog</title><link href="http://localhost:4000/blog/post/2024/03/03/Website-and-Blog.html" rel="alternate" type="text/html" title="Personal Website and Blog" /><published>2024-03-03T17:29:00+08:00</published><updated>2024-03-03T17:29:00+08:00</updated><id>http://localhost:4000/blog/post/2024/03/03/Website-and-Blog</id><content type="html" xml:base="http://localhost:4000/blog/post/2024/03/03/Website-and-Blog.html"><![CDATA[<div style="padding-left: 20px; padding-bottom: 10px; padding-top: 10px; float: right; width: 120px;">
+<img src="/assets/Vie.jpg" style="width: 120px; border: 1px solid black;" />
+</div>
+<p>Welcome to my new personal web site and blog. Here, I plan to communicate updates about my activities and results, e.g., on publications, talks and software.</p>
+
+<p><strong>Maintenance.</strong>
+The goal is to keep the site’s design simple and maintainable.
+Using the Markdown notation, I can easily compose text and images, e.g., the icon on the right.
+The site is entirely based on Jekyll, a Ruby-based static site generator.
+GitHub pages, the site’s host, offers a convenient way to add and maintain content.
+For completeness, I have also archived blog posts that appear on project websites here.</p>
+
+<p><strong>Design.</strong>
+The site consists of blog posts, like this one, and additional pages that can be accessed via the top menu.
+The secondary menu under Research &amp; Tools, is a ribbon of icons modeled after a talk
+on <em>'’Putting the PL into GamePLay’’</em> at the Workshop on Programming Languages in The Netherlands (PLNL 2023).
+In that talk, I summarized over 10 years of research in under 10 minutes.</p>
+
+<p>Please feel free to browse around. Contact me via <a href="/About/">this page</a>.</p>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Welcome to my new personal web site and blog. Here, I plan to communicate updates about my activities and results, e.g., on publications, talks and software.]]></summary></entry><entry><title type="html">Workshop on Digital Card Game Design</title><link href="http://localhost:4000/project/update/2021/05/04/Workshop.html" rel="alternate" type="text/html" title="Workshop on Digital Card Game Design" /><published>2021-05-04T22:25:00+08:00</published><updated>2021-05-04T22:25:00+08:00</updated><id>http://localhost:4000/project/update/2021/05/04/Workshop</id><content type="html" xml:base="http://localhost:4000/project/update/2021/05/04/Workshop.html"><![CDATA[<h2 id="invitation">Invitation</h2>
+<p><img src="/assets/CardScript.png" style="float: right; width: 140px; margin-left: 20px; margin-right: 20px; margin-top: -20px;" />
+We cordially invite you to the <em>Workshop on Tools for Digital Card Game Design</em> on <strong>May 11th 2021</strong>, between 15:00 and 17:00, which takes place on Google Meet.
+Please find the workshop description and program below.</p>
+
+<p><strong>Register.</strong>
+Attendance is free, but registration is required, by sending a reply to Anders Bouwer: <a href="a.j.bouwer@hva.nl">a.j.bouwer@hva.nl</a>.</p>
+
+<p><strong>Google Meet link.</strong>
+The workshop is accessible through the following link: <a href="https://meet.google.com/tth-bocg-mmr">https://meet.google.com/tth-bocg-mmr</a></p>
+
+<p><strong>Abstract.</strong>
+Card game prototyping is a well-known technique for designing turn-based card games in particular and interactive experiences in general.
+Card game prototypes enable designers to create physical metaphors that foreground a game’s rules for freely experimenting, play testing and exploring alternative designs, at a table in a mediated setting.
+We aim to empower designers with a set of digital card game tools that help automate the design process.
+During this workshop, we present and discuss initial steps toward such a tool set.
+We show a tool prototype (described in more detail below), not as a solution for professional use, but for obtaining feedback that helps focus future R&amp;D. Together, workshop participants will discuss and determine next steps, by relating their goals, needs and experiences.</p>
+
+<h3 id="program">Program</h3>
+<p>The following program is tentative and may still change.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time                 </th>
+      <th style="text-align: left">Activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">15:00 - 15:10</td>
+      <td style="text-align: left">Welcome</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:10 - 15:40</td>
+      <td style="text-align: left">Presentation and prototype demonstration</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:40 - 16:00</td>
+      <td style="text-align: left">Coffee break</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">Feedback and discussion</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Tool Prototype.</strong>
+The tool prototype and its manual are available for download here: <a href="https://drive.google.com/drive/folders/17qACyFPDwLahBV_Z2Mxk2nNhKiJazNUH?usp=sharing">https://drive.google.com/drive/folders/17qACyFPDwLahBV_Z2Mxk2nNhKiJazNUH?usp=sharing</a>.
+If you are interested and have the time (also if you can’t attend the workshop), we would like to ask you to try out the demo beforehand for 45 min, and fill in the survey here:
+<a href="https://forms.gle/SS16xRUbUunsep4d6">https://forms.gle/SS16xRUbUunsep4d6</a>.
+We welcome your feedback and will use this to analyse experiences, determine goals and needs, and next steps to be taken regarding future development.</p>
+
+<h3 id="organization">Organization</h3>
+<p>This workshop is organized by the lectorate Civic Interaction Design at the Amsterdam University of Applied Science (HvA) together with FourceLabs and the Software Analysis &amp; Transformation group of Centrum Wiskunde Informatica (CWI), in the context of the DGA Gaming Field Lab project ‘A Digital Prototyping Tool for Card Game Design’.
+The workshop organizers are: Karel Millenaar (FourceLabs/HvA), Anders Bouwer (HvA) and Riemer van Rozen (CWI).</p>
+
+<p><strong>Contact</strong></p>
+<ul>
+  <li>Anders Bouwer: <a href="a.j.bouwer@hva.nl">a.j.bouwer@hva.nl</a></li>
+</ul>]]></content><author><name>Riemer van Rozen and Anders Bouwer</name></author><category term="project" /><category term="update" /><summary type="html"><![CDATA[Invitation We cordially invite you to the Workshop on Tools for Digital Card Game Design on May 11th 2021, between 15:00 and 17:00, which takes place on Google Meet. Please find the workshop description and program below.]]></summary></entry><entry><title type="html">Dutch Games Association Field Lab</title><link href="http://localhost:4000/blog/post/2021/03/24/DGA-Field-Lab.html" rel="alternate" type="text/html" title="Dutch Games Association Field Lab" /><published>2021-03-24T00:27:00+08:00</published><updated>2021-03-24T00:27:00+08:00</updated><id>http://localhost:4000/blog/post/2021/03/24/DGA-Field-Lab</id><content type="html" xml:base="http://localhost:4000/blog/post/2021/03/24/DGA-Field-Lab.html"><![CDATA[<h1 id="field-lab">Field Lab</h1>
+<p>We are opening our <a href="https://CardGameDesign.github.io">website</a> on digital card game design and prototyping. We have begun our activities with a Field Lab funded by the Dutch Games Association (DGA) called <em>“A Digital Prototyping Tool for Card Game Design”</em>. A project description is available <a href="https://fieldlab.dutchgamesassociation.nl/projects/digital-prototyping-tool/">here</a>.</p>
+
+<h1 id="card-game-interest-group">Card Game Interest Group</h1>
+<p>While these are humble beginnings, we aim form a collective that unites designers, developers, researchers, students and lecturers with a common interest in digital card game design. Together we explore how to support and speed up design processes by developing and applying tools for digital card game prototyping.</p>
+
+<h1 id="activities">Activities</h1>
+<p>On this <a href="https://CardGameDesign.github.io">website</a> we will share our progress, and organize future activities and collaborations.</p>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Field Lab We are opening our website on digital card game design and prototyping. We have begun our activities with a Field Lab funded by the Dutch Games Association (DGA) called “A Digital Prototyping Tool for Card Game Design”. A project description is available here.]]></summary></entry><entry><title type="html">Languages of Games and Play</title><link href="http://localhost:4000/project/update/2020/01/28/Languages-of-Games-and-Play.html" rel="alternate" type="text/html" title="Languages of Games and Play" /><published>2020-01-28T20:50:06+08:00</published><updated>2020-01-28T20:50:06+08:00</updated><id>http://localhost:4000/project/update/2020/01/28/Languages-of-Games-and-Play</id><content type="html" xml:base="http://localhost:4000/project/update/2020/01/28/Languages-of-Games-and-Play.html"><![CDATA[<div style="float: right; width: 40%; padding-left: 20px; padding-bottom: 20px;">
+<div style="text-align: center; padding: 20px; background-color: whitesmoke;">
+<img src="http://localhost:4000/assets/Thesis_front_vRozen.jpg" style="width:90%; padding-bottom: 10px;" />
+<div style="text-align: left">
+Riemer van Rozen. "Languages of Games and Play: Automating Game Design &amp; Enabling Live Programming". PhD Thesis. University of Amsterdam, Feb. 2020. HDL: 
+<a href="https://hdl.handle.net/11245.1/5b899657-b786-46e0-815b-be669f002514">11245.1/5b899657-b786-46e0-815b-be669f002514</a>
+</div>
+</div>
+</div>
+
+<p><strong>Invitation.</strong> 
+We cordially invite you to attend the PhD defense of Riemer van Rozen on Wednesday February 19th at 10:00 am at the Agnietenkapel. Riemer is going to defend his thesis “Languages of Games and Play: Automating Game Design &amp; Enabling Live Programming”.</p>
+
+<p>Following the defense, we organize a mini-symposium on Live Game Design. We invite you for a lunch (a warm meal), short talks by distinguished speakers and drinks at Hotel Casa.</p>
+
+<p><strong>Date.</strong> Wednesday February 19th 2020</p>
+
+<p><strong>Location 1: Defense.</strong> Agnietenkapel, Oudezijds Voorburgwal 229 - 231, 1012 EZ Amsterdam. <a href="https://www.uva.nl/locaties/binnenstad/agnietenkapel.html">[url]</a> <a href="https://maps.google.com/maps?ll=52.370005,4.894817&amp;z=14&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=embed&amp;q=Oudezijds%20Voorburgwal%20229%201012%20EZ%20Amsterdam%20Netherlands">[map]</a></p>
+
+<p><strong>Location 2: Mini-symposium.</strong> Hotel Casa, Eerste Ringdijkstraat 4, 1097 BC, Amsterdam. <a href="https://hotelcasa.nl/location/">[url]</a> <a href="https://maps.google.com/maps?ll=52.349965,4.918616&amp;z=15&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=embed&amp;cid=6558817380194148651">[map]</a></p>
+
+<p><strong>Registration.</strong> <a href="https://forms.gle/HvKScRCPc3piCoMZ6">Registration is free</a>, but please let us know before February 11th 2020!</p>
+
+<h3 id="mini-symposium">Mini-symposium</h3>
+<p>Distinguished speakers will each give a short talk, in which they will share their perspective on languages, models, techniques and tools for game design and development.
+Please find the schedule and abstracts below.</p>
+
+<h3 id="preliminary-program">Preliminary Program</h3>
+<p>Please note that the schedule below may still change.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time                 </th>
+      <th style="text-align: left">Activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">10:00 - 12:00</td>
+      <td style="text-align: left">PhD defense (Agnietenkapel, public event)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">goto Hotel Casa</td>
+      <td style="text-align: left">:walking: + :metro: (20 min) / :bike: (12 min) / :car: (20 min)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Lunch (confirmed participants)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:00 - 13:20</td>
+      <td style="text-align: left">Procedural Generation Using Linear Constraints, Prof. Dr. Jim Whitehead</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:20 - 13:40</td>
+      <td style="text-align: left">Multi-Paradigm Modelling for Modern Computer Games, Prof. Dr. Hans Vangheluwe</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:40 - 13:55</td>
+      <td style="text-align: left">Coffee Break</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:55 - 14:10</td>
+      <td style="text-align: left">Radical Content Generation, Dr. Joris Dormans</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:10 - 14:25</td>
+      <td style="text-align: left">It’s a Wonderful Narrative World, Dr. ir. Rafael Bidarra</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:25 - 14:40</td>
+      <td style="text-align: left">Breathing Life into Domain-Specific Languages, Prof. Dr. Tijs van der Storm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:40 - :wink:</td>
+      <td style="text-align: left">Drinks</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="short-talks">Short Talks</h2>
+
+<h3 id="talk-1-procedural-generation-using-linear-constraints">Talk 1: Procedural Generation Using Linear Constraints</h3>
+<p><strong>Abstract.</strong> Procedural content generation problems sometimes involve systems of linear equality and inequality constraints among the elements being generated. Cassowary is a constraint solver designed for solving these types of constraints at interactive speeds. It is widely used in user interface toolkits, and multiple implementations are available. To date, Cassowary has not been used in procedural content generation. This talk presents Cassowary and gives examples of its use in procedural content generation.</p>
+
+<table>
+<tr><td width="80%">
+<b>Speaker.</b> Jim Whitehead is Professor of Computational Media at the University of California, Santa Cruz. Within computer games, his research interests include procedural content generation, tools where humans and computer generators work collaboratively, serious games, and level design in games. He is the founding President of the Society for the Advancement of the Science of Digital Games which operates the yearly Foundations of Digital Games conference.
+</td>
+<td width="20%">
+<p style="text-align:center;">
+<img src="https://www.soe.ucsc.edu/people/ejw/photo/1" width="120" />
+</p>
+</td>
+</tr>
+</table>
+
+<h3 id="talk-2-multi-paradigm-modelling-for-modern-computer-games">Talk 2: Multi-Paradigm Modelling for Modern Computer Games</h3>
+
+<p><strong>Abstract.</strong> As the complexity of Modern Computer Games increases, the value of their Model-Based Design becomes apparent. By using most appropriate modelling formalisms, at appropriate levels of abstraction, by explicitly quantifying the notion of “playability”, and by automatic exploration of the space of possible game designs (and in particular, of Non-Player Character behaviour), many alternatives can be explored virtually, and games can be synthesized. Some personal experiences with Model-Based Design of Modern Computer Games will be presented.</p>
+
+<table>
+<tr><td width="80%">
+<b>Speaker.</b> Hans Vangheluwe is a professor in the department of Computer Science of the University of Antwerp in Belgium. His Modelling, Simulation and Design Lab (MSDL) is a core research lab of Flanders Make, the strategic research centre for the Flemish manufacturing industry. He works on both foundations and industrial applications of Multi-Paradigm Modelling (MPM). He investigates modular modelling language engineering to support MPM. He was one of the founding members of the Modelica design team and the chair of the Multi-Paradigm Modelling for Cyber-Physical Systems (MPM4CPS) EU COST Action.
+</td>
+<td width="20%">
+<p style="text-align:center;">
+<img src="https://www.uantwerpen.be/images/uantwerpen/personalpage09531/2d525d1776ae9d6a5545599fde4578dc.jpg" width="120" />
+</p>
+</td>
+</tr>
+</table>
+
+<h3 id="talk-3-radical-content-generation">Talk 3: Radical Content Generation</h3>
+<p><strong>Abstract.</strong> Content generation in games offers many opportunities to push game design into new directions. The technology is available but the industry seems reluctant to apply it. What does it take to start making bigger strides? In this talk Joris discusses lessons learned from developing Unexplored and its sequel, mostly how state-of-the-art generative techniques pushes the envelope for game design.</p>
+
+<table>
+<tr><td width="80%">
+<b>Speaker.</b> Joris Dormans is head of Ludomotion where he applies his latest research in Procedural Content Generation to the design and development of Unexplored 2: The Wayfarers Legacy. He is also a founder and adviser for <a href="http://machinations.io">Machination.io</a>, and assistant professor at Leiden University where he teaches courses in Game Studies, Critical Game Design, and Generative Narratology. His current design and research interests lie within the intersection of content generation, emergent gameplay, and player agency.
+</td>
+
+<td width="20%">
+<p style="text-align:center;">
+<img src="https://media-exp1.licdn.com/dms/image/C4E03AQG5fmjl1xi0QA/profile-displayphoto-shrink_800_800/0?e=1586390400&amp;v=beta&amp;t=fkCiLVDBQZXQtRSzL3zW-NkZ7n9zTnzWyn4IU2bJTGw" width="110" />
+</p>
+</td>
+</tr>
+</table>
+
+<h3 id="talk-4-its-a-wonderful-narrative-world">Talk 4: It’s a Wonderful Narrative World</h3>
+<p><strong>Abstract.</strong>
+A Narrative World comprises a number of interrelated locations that, all together, fully support enacting a given story. Each of these locations features not only all objects required there by the narrative, but also a variety of other objects that adequately describe or decorate the location. 
+Procedurally generating narrative worlds poses many challenges. We identify some of these challenges and describe in more detail one of them: the impact of a story’s temporal dimension, which introduces dynamic fluctuations of objects between locations over time.</p>
+
+<table>
+<tr><td width="80%">
+<b>Speaker.</b> Rafael Bidarra is associate professor Game Technology at the Faculty of Electrical Engineering, Mathematics and Computer Science of Delft University of Technology, The Netherlands.
+He leads the game technology research lab at the Computer Graphics and Visualization Group. His current research interests include: procedural and semantic modeling techniques for the specification and generation of both virtual worlds and gameplay; serious gaming; game adaptivity and game data analytics.
+</td>
+<td width="20%">
+<p style="text-align:center;">
+<img src="https://d1rkab7tlqy5f1.cloudfront.net/_processed_/9/2/csm_k9h71_dc9d83fb2c.jpg" width="110" />
+</p>
+</td>
+</tr>
+</table>
+
+<h3 id="talk-5-breathing-life-into-domain-specific-languages">Talk 5: Breathing Life into Domain-Specific Languages</h3>
+<p><strong>Abstract.</strong> Live programming is a technique to shorten the feedback loop between editing a program and its execution. For domain-specific languages (DSLs) the gap between the program and how it is executed at run time can be even bigger than for general purpose languages such as Java. In this short talk we will highlight the main challenges for bridging this gap and showcase early research results in breathing life into DSLs.</p>
+
+<table>
+<tr><td width="80%">
+<b>Speaker.</b> Tijs van der Storm is senior researcher in the Software Analysis and Transformation (SWAT) group at Centrum Wiskunde &amp; Informatica (CWI), and professor in software engineering at the University of Groningen. His research focuses on improving programmer experience through new and better software languages and developing the tools and techniques to engineer them in a modular and interactive fashion. For more information, see <a href="http://www.cwi.nl/~storm">http://www.cwi.nl/~storm</a>.
+</td>
+<td width="20%">
+<p style="text-align:center;">
+<img src="https://www.cwi.nl/intranet/faces/1812.jpg" width="110" />
+</p>
+</td>
+</tr>
+</table>
+
+<h2 id="directions">Directions</h2>
+<p>The Agnietenkapel is easy to reach by public transport, e.g., from the Nieuwmarkt metro stop.</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4872.045774487924!2d4.894817!3d52.370005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c09ccd7d53%3A0xaadb501c4aa17ff2!2sOudezijds%20Voorburgwal%20229%2C%201012%20EZ%20Amsterdam%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1580223456444!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+<p>Hotel Casa is easy to reach on foot from the Amstel station.</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1279074121935!2d4.916427316149673!3d52.34996537978224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60978b33ac2bb%3A0x5b0599a83d21612b!2sHotel%20Casa%20Amsterdam!5e0!3m2!1sen!2sus!4v1580223535689!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>]]></content><author><name>Riemer van Rozen</name></author><category term="project" /><category term="update" /><summary type="html"><![CDATA[Riemer van Rozen. "Languages of Games and Play: Automating Game Design &amp; Enabling Live Programming". PhD Thesis. University of Amsterdam, Feb. 2020. HDL: 11245.1/5b899657-b786-46e0-815b-be669f002514]]></summary></entry><entry><title type="html">Exploring the Design Space with Live Modeling</title><link href="http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html" rel="alternate" type="text/html" title="Exploring the Design Space with Live Modeling" /><published>2019-02-05T21:00:00+08:00</published><updated>2019-02-05T21:00:00+08:00</updated><id>http://localhost:4000/blog/post/2019/02/05/Live-Modeling</id><content type="html" xml:base="http://localhost:4000/blog/post/2019/02/05/Live-Modeling.html"><![CDATA[<p><em>Draft – February 5th 2019</em></p>
+
+<p><strong>Abstract.</strong>
+Live Modeling is a research area in Model-Driven Engineering that studies how to improve the affordances of languages, tools and techniques by providing immediate and continuous feedback about how visual changes to the source code (or model) affect running programs.
+Instead of long edit-compile-run cycles, every update to the model is immediately visible in the running application and its programming environment.
+Here we share our perspective on how these tools support interactive design space exploration.
+We motivate our research and clarify our position by giving an account of our progress on enabling technology constructed in the context of an applied project called Live Game Design.
+We demonstrate two live programming environments we created for 1) a simple State Machine Language; and 2) Micro-Machinations, a Domain-Specific Language for game economies.</p>
+
+<h3 id="introduction">Introduction</h3>
+<p>Imagination is at the root of every improvement. We see how something is lacking, we imagine an improvement, set out to achieve a new goal and find new solutions with varying degrees of success. Making improvements often goes wrong because our imagination did not accurately predict the outcomes of our actions.</p>
+
+<p>Practitioners and researchers have invented <em>iterative design processes</em> to gather early feedback on the qualities of our work and improve solutions step by step, gradually improving our insight, constantly checking if we are still on track with respect to changing goals. On the one hand we rely on our imagination to take the right course of action, and on the other hand we do not know yet what that should be because we still have to learn what the solution can become.</p>
+
+<p>Experienced software engineers construct <em>mental models</em> of the systems they build. They can predict with uncanny accuracy how a program works, how it is failing and how it can be improved. Programming is mostly done by imagining improvements and then implementing them, finding out how you were wrong during a lengthy debugging sessions and fixing bugs, repairing mistakes, and of course improving your predictions in the mean time.</p>
+
+<p>To achieve the highest possible quality, <em>understanding</em> how programming changes affect systems under development with respect to a goal is paramount. However, the changes themselves are not often explicitly represented. Instead, engineers create a new version of the source code of a program by making changes here and there, but commonly only see the effects when they recompile or reinterpret and run that code again. This is especially complicated for novice programmers who lack the mental model needed to make correct and meaningful changes to the source code. Instead, novices are left to guess and are forced to take a stab in the dark. This makes learning how to program a frustrating and difficult thing to do. How can you build your mental model if everything you try blows up in your face?</p>
+
+<p>Imagine that we do explicitly represent change, that all changes we make to program models have meaning, and that we can study the effect of changes immediately and continuously. This enables checking with every little change if it had the effect what we imagined or learning how it did not, and combining lots of little changes for steering towards improvements of complete systems. This style of incremental updates with immediate feedback is called <em>live programming</em>.</p>
+
+<p>In live programming we do not assume that you already know what you are doing. 
+Program, go forward, discover your imagination was wrong, learn and reimagine. Go back and try again, observe an improvement, enjoy the endorfines rushing through your brain and continue. Fail, that is ok, it’s never a straight line to a goal, just keep modeling, you will get there in the end.
+We believe that <em>‘exploring the failure space’</em> should not be tedious or repetitive, but instead quickly help identify dead ends and gradually find new exciting design alternatives.</p>
+
+<p>Our research focusses on explicitly representing changes of program models that help programmers in general and game designers in particular understand what their changes mean, enabling them to gradually improve both their insight and their programs [1].</p>
+
+<h3 id="live-programming-of-state-machines">Live Programming of State Machines</h3>
+<p>A key research challenge in live modeling is to determine how to migrate the application’s run-time state with the changes to its source code.
+In van Rozen and van der Storm [1], we describe first steps towards general, reusable and maintainable solutions, which entails <em>differencing</em> models and <em>patching</em> the run-time state to reflect the changes. 
+The following movie demonstrates how this works for a simple State Machine Language.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/sml-live.mp4" />
+  </video>
+</figure>
+
+<h3 id="live-game-design-with-machinations">Live Game Design with Machinations</h3>
+<p>The project Live Intelligent Visual Environments for Game Design, or LIVE Game Design for short, envisions <em>live game design tools</em> that have the following qualities:</p>
+
+<ul>
+  <li>
+    <p><strong>Visual.</strong> includes visual programming languages especially attuned to the expertise of game designers</p>
+  </li>
+  <li>
+    <p><strong>Live.</strong> provides immediate and continuous (live) results that are understandable and help gain insight</p>
+  </li>
+  <li>
+    <p><strong>Feedback.</strong> shows precise and intelligent feedback on mechanics, related dynamics (interaction and run-time), resulting aesthetics (gameplay), in order to make informed decisions.</p>
+  </li>
+  <li>
+    <p><strong>Feed-forward</strong> offers alternatives that can be inspected, picked and applied to focus the creative design process</p>
+  </li>
+  <li>
+    <p><strong>Applicable.</strong> examples and material to learn how to apply the tools</p>
+  </li>
+</ul>
+
+<p>Here we demonstrate a new live programming environment for Micro-Machinations [2,3,4], a Domain-Specific Language for game economies that adds the programming language dimension to the design notation of Machinations [5].
+The tool supports simultaneously editing and running models, which enables immediate prototyping and continuous play testing.
+Ferdy van den Hoed (a bachelor student at the AUAS) built the front-end in Unity in the context of an internship at Firebrush Studios, with Paul Brinkkemper.
+Riemer van Rozen built the back-end, a new C#-based library which is also embeddable in games that is based on prior research [1].
+As a result, games developed in Unity might profit from a built-in editor, though the final goal is platform independent remote manipulation.</p>
+
+<p><strong>Simple Model.</strong>
+We show a simple diagram that uses only global variables, like the Machinations tool by Joris Dormans.
+On the left we see the <em>edit view</em> and on the left the <em>run-time view</em>. As soon as an interactive node is added, it can be activated to see how the resources flow.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/mm_simple.mp4" />
+  </video>
+</figure>
+
+<p><strong>Object Oriented Model.</strong>
+More complex models consist of more than just global variables. Instead, the name space consists of objects, which are instances of definitions.
+A first attempt at modeling a diagram inspired by a Farmville also works surprisingly well.
+The idea unfolds as follows: players have a farm, a farm has plots, plots have plants, and so on.
+We now see the definitions in the <em>edit view</em> on the left and run-time instances on the right, which are updated every time we edit.</p>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" width="100%">
+    <source src="/assets/mm_objects.mp4" />
+  </video>
+</figure>
+
+<p>Note the similarity with Object Oriented Programming where classes have zero or more instances.
+The essential difference however is that in live modeling the program always runs. 
+Instead of something to be imagined, the run-time model on the right is a fact and a consequence that can be observed and inspected.</p>
+
+<p>As far as we know our live game design tool is the first of its kind.
+Of course, this is merely a proof of concept, and it needs additional development before industry can adopt it.
+The business initiative <a href="https://machinations.io">machinations.io</a> is an industrial strength design tool (but not a programming language) with the same notation.</p>
+
+<h3 id="conclusions-and-future-work">Conclusions and Future Work</h3>
+<p>We described progress on enabling technology for languages and tools for live programming and game design, and shared our perspective on how they support an interactive exploration of the design space.
+We motivated our research and gave and account on our progress by demonstrating live programming environments for State Machines and Micro-Machinations.</p>
+
+<p><strong>Future Work.</strong>
+The model transformation and state migration engine that drives these tools is not yet published. 
+This engine deals with events in a novel manner and requires a new way of thinking about how to build languages for live modeling.
+This will be a subject of a future research paper.</p>
+
+<p><strong>Thanks.</strong> We thank Paul Brinkkemper for his continued collaboration with us in applied research on Automated Game Design.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ol>
+  <li>
+    <p>R. van Rozen and T. van der Storm. Toward Live Domain-Specific Languages: From Text Differencing to Adapting Models at Run Time. Pre-print of an article that appeared in Software &amp; Systems Modeling, Springer, August 2017. <a href="https://homepages.cwi.nl/~storm/publications/vRozenvdStorm2017_sosym_v3.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>P. Klint and R. van Rozen. Micro-Machinations: A DSL for Game Economies. In M. Erwig, R. Paige, and E. Van Wyk, editors, Software Language Engineering, volume 8225 of Lecture Notes in Computer Science, pages 36–55. Springer International Publishing, 2013. <a href="http://oai.cwi.nl/oai/asset/21923/21923B.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>R. van Rozen and J. Dormans. Adapting Game Mechanics With Micro-Machinations. In Proceedings of the 9th International Conference on the Foundations of Digital Games (FDG). Society for the Advancement of the Science of Digital Games, April 2014. <a href="http://oai.cwi.nl/oai/asset/23138/23138A.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>R. van Rozen. A Pattern-Based Game Mechanics Design Assistant. In Proceedings of the 10th International Conference on the Proceedings of Foundations of Digital Games (FDG). Society for the Advancement of the Science of Digital Games, June 2015. <a href="http://oai.cwi.nl/oai/asset/23769/23769A.pdf">[pdf]</a></p>
+  </li>
+  <li>
+    <p>J. Dormans. Engineering Emergence - Applied Theory for Game Design, PhD Dissertation, 2012. <a href="http://www.jorisdormans.nl/pdf/dormans_engineering_emergence.pdf">[pdf]</a></p>
+  </li>
+</ol>]]></content><author><name>Riemer van Rozen</name></author><category term="blog" /><category term="post" /><summary type="html"><![CDATA[Draft – February 5th 2019]]></summary></entry><entry><title type="html">Live Game Design Symposium</title><link href="http://localhost:4000/project/update/2019/02/01/Live-Game-Design-Symposium.html" rel="alternate" type="text/html" title="Live Game Design Symposium" /><published>2019-02-01T23:48:06+08:00</published><updated>2019-02-01T23:48:06+08:00</updated><id>http://localhost:4000/project/update/2019/02/01/Live-Game-Design-Symposium</id><content type="html" xml:base="http://localhost:4000/project/update/2019/02/01/Live-Game-Design-Symposium.html"><![CDATA[<p><strong>Invitation.</strong> 
+We cordially invite you to the afternoon Symposium on Live Game Design, which will be held at the <a href="https://www.volkshotel.nl/en/">Volkshotel</a> in Amsterdam on Wednesday February 27th.
+For three years, <a href="/partners">visionary game businesses, excellent students, passionate lecturers and well-known researchers</a> have worked on technical applied research on <em>Live Game Design</em>.
+At the concluding symposium, we will present project results and discuss next steps.
+We hope that you will join.
+Registration is mandatory but free.</p>
+
+<p><strong>Thanks</strong> to everyone who participated and helped make the symposium a memorable event!</p>
+
+<p><strong>Late registration:</strong> We still have a few spots available. Please contact Riemer or Anders.</p>
+
+<div style="float: right; width: 60%; padding-left: 20px; padding-bottom: 20px;">
+<div style="text-align: center; padding: 10px;">
+<img src="/assets/LGD.svg" style="width:100%;" />
+</div>
+</div>
+
+<p><strong>Date:</strong> Wednesday February 27th, 2019.</p>
+
+<p><strong>Location:</strong> Volkshotel, Wibautstraat 150 Amsterdam.</p>
+
+<p>Please find details on the registration and the schedule below.</p>
+
+<h3 id="results">Results</h3>
+<p>The symposium will present the results of the applied research project Live Game Design (Live Intelligent Visual Environments for Game Design).
+This includes technology, languages and tools for game design, the results of related student projects, and the results of the three case studies with companies: Ludomotion, Firebrush Studios and IC3D Media.</p>
+
+<h3 id="discussion">Discussion</h3>
+<p>We also look forward to what’s next.
+What are the technical challenges Dutch game developers are facing?
+How can applied research into visual programming languages, tools and procedural content generation help?
+How can teams of students, lecturer/researchers and practitioners work together tackle these challenges in the coming years?</p>
+
+<h3 id="registration">Registration</h3>
+<p>Registration is required. Please contact us via (livegamedesign@gmail.com) before Tuesday February 12th if you wish to participate. Participation (including optional lunch) is free, but limited spaces are available.</p>
+
+<h3 id="preliminary-program">Preliminary Program</h3>
+<p>Please note that the schedule below may still change.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time                 </th>
+      <th style="text-align: left">Activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">11:00 - 11:30</td>
+      <td style="text-align: left">Project meeting  (project partners)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11:30 - 12:15</td>
+      <td style="text-align: left">Future outlook discussion (project partners, invitees)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:15 - 13:15</td>
+      <td style="text-align: left">Lunch (confirmed symposium participants)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:15 - 13:30</td>
+      <td style="text-align: left">Opening: Exploring the Design Space with Live Game Design Tools, Anders Bouwer (HvA)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:30 - 13:50</td>
+      <td style="text-align: left">Keynote: Semi-Automated Exploration of Game Design Space, <a href="http://www.kmjn.org">Mark J. Nelson</a> (American University, Washington DC)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:50 - 14:05</td>
+      <td style="text-align: left">Narrative World Generation, <a href="https://graphics.tudelft.nl/rafael-bidarra/">Rafael Bidarra</a> (TU Delft)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:05 - 14:20</td>
+      <td style="text-align: left">Presentation about case study with IC3D Media, Loren Roosendaal (Knowingo)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:20 - 14:35</td>
+      <td style="text-align: left">Coffee Break</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:35 - 14:50</td>
+      <td style="text-align: left">Wonderful Design: Applying Appraisal Theory to Procedural Level Generation, Rosa Corstjens (HvA, Ludomotion)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:50 - 15:05</td>
+      <td style="text-align: left">Measuring Quality of Grammars for Procedural Level Generation, Quinten Heijn (UvA alumnus)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:05 - 15:20</td>
+      <td style="text-align: left">Supporting Technology for Live Modeling, Riemer van Rozen (HvA, CWI)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:20 - 15:30</td>
+      <td style="text-align: left">Live Modeling with Micro-Machinations, Ferdy van Den Hoed (HvA, Firebrush Studios)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:30 - 15:45</td>
+      <td style="text-align: left">Data Science for Educational Gameplay Design: Opportunities &amp; Pitfalls, Mossa Merhi Reimert (HvA, Knowingo)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:45 - 16:00</td>
+      <td style="text-align: left">Coffee Break</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:00 - 16:15</td>
+      <td style="text-align: left">Languages of Games and Play: A Systematic Mapping Study, Riemer van Rozen (HvA, CWI)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:15 - 16:30</td>
+      <td style="text-align: left">Code Arena: Battling code clones in Minecraft with Rascal, Sander Meester and Simon Baars (UvA, Master of Software Engineering)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:30 - 16:50</td>
+      <td style="text-align: left">Future outlook</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:50 - 17:00</td>
+      <td style="text-align: left">Concluding remarks</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17:00 - :wink:</td>
+      <td style="text-align: left">Drinks</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Riemer van Rozen and Anders Bouwer</name></author><category term="project" /><category term="update" /><summary type="html"><![CDATA[Invitation. We cordially invite you to the afternoon Symposium on Live Game Design, which will be held at the Volkshotel in Amsterdam on Wednesday February 27th. For three years, visionary game businesses, excellent students, passionate lecturers and well-known researchers have worked on technical applied research on Live Game Design. At the concluding symposium, we will present project results and discuss next steps. We hope that you will join. Registration is mandatory but free.]]></summary></entry></feed>
